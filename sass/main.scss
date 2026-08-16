@@ -1,0 +1,9 @@
+$brandcolour1: #D62727;
+$brandcolour2: #CE0808;
+
+.bg-light-overwritten{
+    background-color: $brandcolour1;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
