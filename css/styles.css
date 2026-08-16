@@ -9,52 +9,61 @@ ul {
   list-style-type: none;
 }
 
+/*ul:hover {
+  font-color: red;
+}*/
+
 
 /*header*/
 
 .cardfont{
   font-family: inter;
-  font-size: 16;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .cardtitlefont{
   font-family: inter;
-  font-size: 20;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .navbarfont{
   font-family: inter;
-  font-size: 24;
+  font-size: 18px;
   font-weight: 600;
 }
 
 .logofont{
   font-family: inter;
-  font-size: 24;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .logofonsmall{
   font-family: inter;
-  font-size: 18;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .usernavbar{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     padding-top: 10px;
 }
 
-.usernavbar .buttonlist{
+.usernavbar .list{
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
-.usernavbar .buttonlist ul{
+.usernavbar .list ul{
     display: flex;
-    gap: 20px;
+    gap: 24px;
+}
+
+
+.offerboxes a{
+    flex: 25;
 }

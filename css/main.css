@@ -1,6 +1,14 @@
 @charset "UTF-8";
-.primary-overwritten {
-  background-color: #D62727;
+.light {
+  color: #FFFFFF;
+}
+
+.primary {
+  color: #D62727;
+}
+
+.danger {
+  color: #CE0808;
 }
 
 /*!

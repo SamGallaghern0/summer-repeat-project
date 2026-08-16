@@ -1,9 +1,15 @@
 $primary: #D62727;
-$seconday: #CE0808;
+$danger: #CE0808;
 $light: #FFFFFF;
 
-.primary-overwritten{
-    background-color: $primary;
+.light {
+    color: $light;
+}
+.primary{
+    color: $primary;
+}
+.danger{
+    color: $danger;
 }
 
 $primary: #D62727;
