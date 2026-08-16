@@ -4,3 +4,57 @@ body {
 h1 {
   color: white;
 }
+
+ul {
+  list-style-type: none;
+}
+
+
+/*header*/
+
+.cardfont{
+  font-family: inter;
+  font-size: 16;
+  font-weight: 600;
+}
+
+.cardtitlefont{
+  font-family: inter;
+  font-size: 20;
+  font-weight: 600;
+}
+
+.navbarfont{
+  font-family: inter;
+  font-size: 24;
+  font-weight: 600;
+}
+
+.logofont{
+  font-family: inter;
+  font-size: 24;
+  font-weight: 500;
+}
+
+.logofonsmall{
+  font-family: inter;
+  font-size: 18;
+  font-weight: 500;
+}
+
+.usernavbar{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.usernavbar .buttonlist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usernavbar .buttonlist ul{
+    display: flex;
+    gap: 20px;
+}

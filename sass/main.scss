@@ -1,5 +1,6 @@
 $primary: #D62727;
 $seconday: #CE0808;
+$light: #FFFFFF;
 
 .primary-overwritten{
     background-color: $primary;
@@ -7,6 +8,7 @@ $seconday: #CE0808;
 
 $primary: #D62727;
 $danger: #CE0808;
+$light: #FFFFFF;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
