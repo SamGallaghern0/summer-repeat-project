@@ -153,19 +153,19 @@ const games = [ /*i asked ai to help when it came to getting game information so
 
 const titles = [
     {
-        text: "popular"
+        text: "Popular"
     },
     {
-        text: "recommended"
+        text: "Recommended"
     },
     {
-        text: "newest"
+        text: "Newest"
     },
     {
-        text: "loved by the community"
+        text: "Loved by the community"
     },
     {
-        text: "our favourites"
+        text: "Our favourites"
     },
 ];
 
