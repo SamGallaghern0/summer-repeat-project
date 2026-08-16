@@ -1,9 +1,12 @@
-$brandcolour1: #D62727;
-$brandcolour2: #CE0808;
+$primary: #D62727;
+$seconday: #CE0808;
 
-.bg-light-overwritten{
-    background-color: $brandcolour1;
+.primary-overwritten{
+    background-color: $primary;
 }
+
+$primary: #D62727;
+$danger: #CE0808;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss"
