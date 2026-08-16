@@ -5,8 +5,8 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 32px;
-    grid-row-gap: 1em;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
     grid-row: auto;
 }
 
@@ -15,8 +15,8 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 32px;
-    grid-row-gap: 1em;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
     grid-row: auto;
 }
 
