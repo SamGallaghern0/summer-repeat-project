@@ -56,6 +56,27 @@ ul {
     gap: 24px;
 }
 
+.usernavbar {
+    position: relative;
+}
+
+.usernavbar .logo {
+    position: absolute;
+    left: 50px;
+    top: -50%;
+    transform: translateY(-50%);
+    width: 180px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .usernavbar .logo {
+        top: -50%;
+        left: -10%;
+    }
+}
+
 
 .longimage {
     width: 100%;
@@ -98,6 +119,15 @@ ul {
     flex-direction: column;
 
     box-shadow: 0 2px 4px rgb(0, 0, 0, 0.15);
+}
+
+.offerbox {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.offerbox:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
 }
 
 .boxtop {
