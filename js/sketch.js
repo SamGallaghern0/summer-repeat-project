@@ -174,25 +174,31 @@ const titletext = document.getElementById("titletext");
 
 games.forEach(function(game, index) {
 
-    if (index % 6 === 0) { /*checks if the amount of boxes in a row is equal to six than adds new title for next row*/
-        const titleIndex = index / 6;
+    if (index % 5 === 0) {
+        const titleIndex = index / 5;
+
         offerboxes.innerHTML += `
-            <h2 class="section-title">${titles[titleIndex].text}</h2>
+            <div class="col-12">
+                <h2 class="section-title">${titles[titleIndex].text}</h2>
+            </div>
         `;
     }
 
     offerboxes.innerHTML += `
-        <div class="offerbox">
-            <div class="boxtop">
-                <img src="${game.image}">
-            </div>
+        <div class="game-card">
+            <div class="offerbox">
+                <div class="boxtop">
+                    <img src="${game.image}">
+                </div>
 
-            <div class="boxbottom">
-                <p class="cardfont cardfont1">${game.name}</p>
-                <p class="cardfont cardfont2">${game.price}</p>
-                <button>
-                    <i class="fa-solid fa-basket-shopping"></i>
-                </button>
+                <div class="boxbottom">
+                    <p class="cardfont cardfont1">${game.name}</p>
+                    <p class="cardfont cardfont2">${game.price}</p>
+
+                    <button>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </button>
+                </div>
             </div>
         </div>
     `;
