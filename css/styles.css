@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #ffffff;
 }
 h1 {
   color: white;
@@ -8,6 +8,8 @@ h1 {
 ul {
   list-style-type: none;
 }
+
+
 
 /*ul:hover {
   font-color: red;
@@ -156,4 +158,49 @@ button::before {
     font-size: 20px;
     font-weight: 600;
     text-align: left;
+}
+
+
+
+.footer{
+    background-color: grey;
+}
+
+.footer .footercontent .footertextboxes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.footer .footertextboxes ul{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer .footertextboxes ul a:hover{
+    color: #ffffff;
+}
+
+.footer .footerbox h4{
+    margin-bottom: 16px;
+}
+
+.footer .footerbox li{
+    margin-bottom: 1px;
+}
+
+.footer .footerbox ul{
+    margin-bottom: 30px;
+}
+
+.footer .footercontent .mediapromotion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h4{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
 }
