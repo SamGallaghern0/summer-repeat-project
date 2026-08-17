@@ -102,10 +102,10 @@ const games = [ /*i asked ai to help when it came to getting game information so
     {
         name: "Halo Infinite",
         price: "$45.00",
-        image: "images/halo.webp"
+        image: "images/halo.jpg"
     },
     {
-        name: "Overwatch 2",
+        name: "Overwatch",
         price: "$25.00",
         image: "images/overwatch.webp"
     },
@@ -115,7 +115,7 @@ const games = [ /*i asked ai to help when it came to getting game information so
         image: "images/assassinscreed.webp"
     },
     {
-        name: "Far Cry 6",
+        name: "Far Cry 5",
         price: "$35.00",
         image: "images/farcry.webp"
     },
@@ -127,7 +127,7 @@ const games = [ /*i asked ai to help when it came to getting game information so
     {
         name: "Street Fighter 6",
         price: "$45.00",
-        image: "images/streetfighter.webp"
+        image: "images/streetfighter.jpg"
     },
     {
         name: "Tekken 8",
@@ -135,7 +135,7 @@ const games = [ /*i asked ai to help when it came to getting game information so
         image: "images/tekken.webp"
     },
     {
-        name: "Star Wars Jedi",
+        name: "Star Wars Jedi survivor",
         price: "$45.00",
         image: "images/starwars.webp"
     },
@@ -188,8 +188,8 @@ games.forEach(function(game, index) {
             </div>
 
             <div class="boxbottom">
-                <p class="cardfont">${game.name}</p>
-                <p class="cardfont">${game.price}</p>
+                <p class="cardfont cardfont1">${game.name}</p>
+                <p class="cardfont cardfont2">${game.price}</p>
                 <button>
                     <i class="fa-solid fa-basket-shopping"></i>
                 </button>

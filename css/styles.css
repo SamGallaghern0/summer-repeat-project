@@ -119,12 +119,12 @@ ul {
 
     position: relative;
 }
-.boxbottom .cardfont:first-child {
+.boxbottom .cardfont1 {
     margin-top: 17px;
     height: 50px;
 }
 
-.boxbottom .cardfont:nth-child(2) {
+.boxbottom .cardfont2 {
     margin-top: 25px;
 }
 
