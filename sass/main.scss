@@ -1,6 +1,7 @@
 $primary: #D62727;
 $danger: #CE0808;
 $light: #FFFFFF;
+$warning: #F8F3F3;
 
 .light {
     color: $light;
@@ -11,10 +12,14 @@ $light: #FFFFFF;
 .danger{
     color: $danger;
 }
+.warning{
+    color: $warning;
+}
 
 $primary: #D62727;
 $danger: #CE0808;
 $light: #FFFFFF;
+$warning: #F8F3F3;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

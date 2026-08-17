@@ -190,6 +190,52 @@ button::before {
 
 
 
+.about-us {
+    display: flex;
+    width: 100%;
+    height: 315px;
+}
+
+.about-us img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us p {
+    width: 50%;
+    margin: 0;
+    padding: 0 35px;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .about-us img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .about-us p {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+
+
 .footer{
     background-color: grey;
 }
