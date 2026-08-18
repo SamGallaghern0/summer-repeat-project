@@ -1,4 +1,4 @@
-$primary: #D62727;
+$primary: #D62727; //where the custom colours are added to be used in the html
 $danger: #CE0808;
 $light: #FFFFFF;
 $warning: #F8F3F3;
@@ -23,13 +23,6 @@ $info: #FFBFBF;
 .info{
     color: $info;
 }
-
-$primary: #D62727;
-$danger: #CE0808;
-$light: #FFFFFF;
-$warning: #F8F3F3;
-$dark: #868686;
-$info: #FFBFBF;
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

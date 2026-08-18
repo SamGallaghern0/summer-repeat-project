@@ -172,7 +172,7 @@ const titles = [
 const offerboxes = document.getElementById("offerboxes");
 const titletext = document.getElementById("titletext");
 
-games.forEach(function(game, index) {
+games.forEach(function(game, index) { /* the location of the offerboxes code used in html along with the titles*/
 
     if (index % 5 === 0) {
         const titleIndex = index / 5;
