@@ -195,7 +195,7 @@ games.forEach(function(game, index) {
                     <p class="cardfont cardfont1">${game.name}</p>
                     <p class="cardfont cardfont2">${game.price}</p>
 
-                    <button>
+                    <button class="bg-primary">
                         <i class="fa-solid fa-basket-shopping"></i>
                     </button>
                 </div>

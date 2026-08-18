@@ -165,9 +165,6 @@ button {
     border: none;
     border-radius: 50%;
 
-    background-color: #dc2929;
-    color: white;
-
     position: absolute;
     right: 0;
     bottom: 10px;
@@ -235,10 +232,90 @@ button::before {
 }
 
 
-
-.footer{
-    background-color: grey;
+.contact {
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
+
+.contactcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    box-sizing: border-box;
+}
+
+.contacttext {
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 600;
+    width: 35%;
+}
+
+.contactinput {
+    width: 300px;
+    height: 55px;
+    box-sizing: border-box;
+
+    border: 1px solid #888;
+    border-radius: 30px;
+
+    padding: 0 20px;
+
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contactinput::placeholder {
+    color: #888;
+}
+
+.contactbutton {
+    flex-shrink: 0;
+}
+
+.contactbutton button {
+    position: static;
+
+    width: 180px;
+    height: 55px;
+
+    border: none;
+    border-radius: 30px;
+
+    font-family: inter;
+    font-size: 18px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .contactcontent {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .contacttext {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .contactinput {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .contactbutton button {
+        width: 160px;
+    }
+
+}
+
 
 .footer .footercontent .footertextboxes{
     display: flex;
